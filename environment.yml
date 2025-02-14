@@ -15,7 +15,7 @@ dependencies:
   - anaconda-client
   - boa
   - python-build
-  - twine  # for uploading to pypi and testpypi
+  #- twine  # for uploading to pypi and testpypi
   # test: list all test dependencies here
   - pytest
   # --------------------------------------------------
