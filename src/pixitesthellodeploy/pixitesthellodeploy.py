@@ -47,16 +47,3 @@ class PackageName(QMainWindow):
         self.setWindowTitle(f"PACKAGENAME - {__version__}")
         self.main_window = MainWindow(self)
         self.setCentralWidget(self.main_window)
-
-
-def gui():
-    """Main entry point for Qt application"""
-    input_flags = sys.argv[1::]
-    if "--v" in input_flags or "--version" in input_flags:
-        print(__version__)
-        sys.exit()
-    else:
-        app = QApplication(sys.argv)
-        window = PackageName()
-        window.show()
-        sys.exit(app.exec_())
