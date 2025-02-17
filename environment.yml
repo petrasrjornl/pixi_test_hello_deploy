@@ -18,6 +18,8 @@ dependencies:
   #- twine  # for uploading to pypi and testpypi
   # test: list all test dependencies here
   - pytest
+  - pytest-cov
+  - pytest-xdist
   # --------------------------------------------------
   # add additional sections such as Qt, etc. if needed
   # --------------------------------------------------
