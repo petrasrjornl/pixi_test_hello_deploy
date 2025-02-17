@@ -4,7 +4,7 @@ channels:
 dependencies:
   # -- Runtime dependencies
   # base: list all base dependencies here
-  - python>=3.13  # please specify the minimum version of python here
+  - python>=3.10  # please specify the minimum version of python here
   - versioningit
   # -- Development dependencies
   # utils:
