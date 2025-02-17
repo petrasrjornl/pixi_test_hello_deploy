@@ -2,10 +2,10 @@
 
 from qtpy.QtWidgets import QHBoxLayout, QPushButton, QTabWidget, QVBoxLayout, QWidget
 
-from packagenamepy.help.help_model import help_function
-from packagenamepy.home.home_model import HomeModel
-from packagenamepy.home.home_presenter import HomePresenter
-from packagenamepy.home.home_view import Home
+from pixitesthellodeploy.help.help_model import help_function
+from pixitesthellodeploy.home.home_model import HomeModel
+from pixitesthellodeploy.home.home_presenter import HomePresenter
+from pixitesthellodeploy.home.home_view import Home
 
 
 class MainWindow(QWidget):
