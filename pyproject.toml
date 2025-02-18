@@ -1,6 +1,6 @@
 [project]
-name = "examplepyapp"
-description = "Example Python repo for neutrons"
+name = "pixitesthellodeploy"
+description = "Example pixi Hello World deployment"
 dynamic = ["version"]
 requires-python = ">=3.10"
 dependencies = [
@@ -38,7 +38,7 @@ dirty = "{version}+d{build_date:%Y%m%d}"
 distance-dirty = "{next_version}.dev{distance}+d{build_date:%Y%m%d%H%M}"
 
 [tool.versioningit.write]
-file = "src/packagenamepy/_version.py"
+file = "src/pixitesthellodeploy/_version.py"
 
 [tool.setuptools.packages.find]
 where = ["src"]
@@ -48,10 +48,10 @@ exclude = ["tests*", "scripts*", "docs*", "notebooks*"]
 "*" = ["*.yml","*.yaml","*.ini"]
 
 [project.scripts]
-packagename-cli = "packagenamepy.packagename:main"
+packagename-cli = "pixitesthellodeploy.packagename:main"
 
 [project.gui-scripts]
-packagenamepy = "packagenamepy.packagename:gui"
+pixitesthellodeploy = "pixitesthellodeploy.packagename:gui"
 
 [tool.pytest.ini_options]
 pythonpath = [
