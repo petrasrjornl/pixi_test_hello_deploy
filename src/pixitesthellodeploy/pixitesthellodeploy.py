@@ -39,7 +39,7 @@ class PackageName(QMainWindow):
                 "Error with configuration settings!",
                 f"Check and update your file: {config.config_file_path}",
                 "with the latest settings found here:",
-                f"{config.template_file_path} and start the application again.",
+                f"{config.template_file_path} and start the application once again.",
             )
 
             print(" ".join(msg))
